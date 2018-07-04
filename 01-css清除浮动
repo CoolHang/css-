@@ -1,3 +1,9 @@
 .clearfix:after,.clearfix:before{ content: "";display: table;}
 .clearfix:after{ clear:both;}
 .clearfix{zoom:1;}
+
+清除浮动的使用方法：
+
+.con2{... overflow:hidden}
+或者
+<div class="con2 clearfix">
